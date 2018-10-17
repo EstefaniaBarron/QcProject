@@ -15,15 +15,13 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     func makeAPhoneCall() {
-        let url: NSURL = URL(string: "TEL://5165068101")! as NSURL
+        let url: NSURL = URL(string: "TEL://9152264199")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
     }
 
